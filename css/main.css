@@ -1,0 +1,110 @@
+/**
+* ACM (main) created by ACore -1359236684
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+li, a, #footer p {text-shadow: 1px 1px #46449d;}
+a {color: #FFFFFF; text-decoration: none}
+p { margin: 10px 0}
+p, h1, label{text-shadow: 1px 1px #fff;}
+
+h2,h3 {font-size: 40px; font-family: 'Fjalla One', cursive; text-align: center; text-shadow: 1px 1px #fff; color: #0767A0; padding: 10px 0}
+h3 {font-size: 30px}
+.notable {font-size: 25px; font-family: 'Fjalla One', cursive; text-shadow: 1px 1px #fff; color: #46449D; padding: 10px 0}
+.mchico {font-size: 15px}
+.imgvd { background: url(../imgs/bg1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; height: 250px}
+.info {font-weight: bold}
+
+body {background: url(../imgs/back.png); font-family: Arial, Helvetica, sans-serif}
+
+.btnvd { font-family: 'Fjalla One', cursive; display: block; padding: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; width: 150px; margin: 0 auto;
+border-radius: 5px; background: #46449d; color: #fff; text-decoration: none; box-shadow: 3px 3px 2px 2px rgba(0,0,0,0.4); text-align: center}
+.btnvd:hover { box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.4);}
+
+.btnbig { font-size: 30px; font-family: 'Fjalla One', cursive; width: 300px; margin: 20px auto}
+
+ul.bluebox li { display: block; padding: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; margin: 5px 0;
+border-radius: 5px; background: #0767a0; color: #fff; text-decoration: none; box-shadow: 3px 3px 2px 2px rgba(0,0,0,0.2) inset;}
+
+.options .opt-yes {display: block; width: 50px; height: 39px; background: url(../imgs/si.png) no-repeat; text-indent: -10000px}
+.options .opt-no {display: block; width: 50px; height: 39px; background: url(../imgs/no.png) no-repeat; text-indent: -10000px}
+
+#header {height: 42px; background: url(../imgs/top.png) repeat-x}
+#header h1 a{display: block; width: 214px; height: 107px; background: url(../imgs/logo.png) no-repeat; position: absolute; text-indent: -10000px; z-index: 1000}
+#map_canvas {height: 260px}
+.barra {height: 42px; background: url(../imgs/footer.png) repeat-x; position: relative;}
+.barra img {position: relative; top: -51px}
+.barra .centro {width: 172px; height: 42px; margin: 0 auto}
+.morado { height: 44px; margin-left: 53%; position: absolute; top: 0; width: 47%; background: url(../imgs/morado.png) repeat-x 0 0; }
+#footer {height: 42px; background: url(../imgs/footer.png) repeat-x; clear: both; color: #FFFFFF}
+#footer p {text-align: center; font-size: 12px; line-height: 35px}
+
+.preguntas li{font-family: 'Fjalla One', cursive; margin: 10px 0; text-shadow: 1px 1px #fff; padding: 15px 55px 15px 0;
+font-size: 20px; position: relative; line-height: 26px;}
+.preguntas li .options {display: block; position: absolute; top: 10px; right: 0;}
+.centrado {text-align: center}
+.grid_6 {width: 460px; float: left; margin: 0 10px; padding: 50px 0}
+.grid_12 {width: 960px; margin: 0 auto; position: relative; clear: both}
+
+.introform { width: 75%; margin: 20px auto 0; text-align: center; background: rgba(255, 255, 255, .2); padding: 10px; border-radius: 6px;}
+.introform p:first-child { font-family: 'Fjalla One', cursive; font-size: 20px;}
+.introform label { width: auto; display: inline;}
+
+label {display: block; width: 200px}
+input[type='text'], input[type='password'] { width: 250px; background:#54010e; background: rgba(0,0,0,0.1); -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px; border: none; height: 20px;
+-moz-box-shadow: inset 0 0 5px 1px #46449d;
+-webkit-box-shadow: inset 0 0 5px 1px #46449d;
+box-shadow: inset 0 0 5px 1px #46449d;
+color: #fff; padding: 5px; display: block;}
